@@ -1,0 +1,71 @@
+.pdf-reader-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  margin-right: 10px;
+}
+
+.file-label:hover {
+  background-color: #2980b9;
+}
+
+.extract-button {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 11px 21px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.extract-button:hover {
+  background-color: #218c54;
+}
+
+.results-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.results-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.results-item {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+
+.results-item:nth-child(even) {
+  background-color: #d5dbdb;
+}
